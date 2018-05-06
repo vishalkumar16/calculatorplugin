@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Currency Converter</title>
+    <style>
+        body {
+            min-width: 355px;
+            overflow-x: hidden;
+            font: normal 12px/160% Verdana, Arial, Helvetica, sans-serif;
+        }
+
+        label {
+            display: inline-block;
+            width: 160px;
+            margin-right: 5px;
+        }
+
+
+        select {
+            width: 270px;
+        }
+
+        .container {
+            margin: 10px 0;
+            clear: both;
+        }
+
+        #convertBtn {
+            float: left;
+            margin-right: 10px;
+        }
+
+        #result {
+            font-weight: bold;
+        }
+
+        .info {
+            font-size: 10px;
+            color: #666;
+        }
+    </style>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+</head>
+
+<body>
+    <label for="from">From Currency : </label>
+    <select id="from">
+    </select>
+    <br>
+    <label for="to">To Currency : </label>
+    <select id="to">
+    </select>
+    <br>
+    <div id="result"></div>
+    <div class="container">
+        <input type="button" id="convertBtn" value="Get Rate">
+    </div>
+    <br/>
+    <p class="info">"The exchange rates are only for estimation purpose only, the actual rates may vary."</p>
+</body>
+
+</html>

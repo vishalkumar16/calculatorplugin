@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Currency Converter",
+    "description": "This is a currency converter where customers can change from one currency to other",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "images/currency-converter-hd-88.png",
+     "default_popup": "popup.html"
+    },
+    "icons": {
+		"100": "images/currency-converter-hd-88.png"
+    }
+  }
